@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#rojo {
+    background-color: red;
+}
+
+#verde {
+    background-color: green;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+.input{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
